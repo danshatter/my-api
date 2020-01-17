@@ -2,7 +2,7 @@ MY-API
 
 /* This is my fourth personal project inspired by Brad Traversy PHP REST API from scratch. Depending on the request method, you can GET, POST, PUT, PATCH, and DELETE resources */
 
-- Import the 'users.sql' to get you started. Database name used here is 'my-api' but you are free to change it in 'credentials/secure.php'. You could put in your personal database credentials here as well. Some dummy data are present to get you started immediately
+- Import the 'my-api.sql' to get you started. This wiil create a 'users' table. Make sure you fill in the correct database connection credentials in the 'credentials/secure.php' file. Some dummy data are present in the 'users' table to get you started immediately.
 
 - You could use postman to test it. Depending on the request method, perform the following requests on the endpoints
 
@@ -26,7 +26,7 @@ DELETE			SERVER_ROOT/my-api/api/users.php
 
 - PUT and PATCH any changes you may require
 
-- This is the naming convention for the key values for the JSON input on POST, PUT, PATCH and DELETE requests
+- This is the naming convention for the keys for the JSON input on POST, PUT, PATCH and DELETE requests
 
 	"id"
 	"first_name"
