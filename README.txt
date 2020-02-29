@@ -1,6 +1,6 @@
 MY-API
 
-/* This is my fourth personal project inspired by Brad Traversy PHP REST API from scratch. Depending on the request method, you can GET, POST, PUT, PATCH, and DELETE resources */
+/* This is my fourth personal project. It is a REST API from scratch. Depending on the request method, you can GET, POST, PUT, PATCH, and DELETE resources */
 
 - Import the 'my-api.sql' to get you started. This wiil create a 'users' table. Make sure you fill in the correct database connection credentials in the 'credentials/secure.php' file. Some dummy data are present in the 'users' table to get you started immediately.
 
