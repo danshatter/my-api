@@ -2,7 +2,7 @@ MY-API
 
 /* This is my fourth personal project. It is a REST API from scratch. Depending on the request method, you can GET, POST, PUT, PATCH, and DELETE resources */
 
-- Import the 'my-api.sql' to get you started. This wiil create a 'users' table. Make sure you fill in the correct database connection credentials in the 'credentials/secure.php' file. Some dummy data are present in the 'users' table to get you started immediately.
+- Import the 'my-api.sql' to get you started. This will create a 'users' table. Make sure you fill in the correct database connection credentials in the 'credentials/secure.php' file. Some dummy data are present in the 'users' table to get you started immediately.
 
 - You could use postman to test it. Depending on the request method, perform the following requests on the endpoints
 
@@ -24,7 +24,7 @@ DELETE			SERVER_ROOT/my-api/api/users.php
 
 - A DELETE request only needs an ID to delete a resource.
 
-- PUT and PATCH any changes you may require
+- PUT and PATCH any changes you may require. 
 
 - This is the naming convention for the keys for the JSON input on POST, PUT, PATCH and DELETE requests
 
